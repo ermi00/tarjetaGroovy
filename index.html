@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redirigiendo...</title>
+    <meta name="robots" content="noindex, nofollow">
+
+    <script>
+        // ==========================================
+        // CONFIGURACIÓN: Cambia esta URL cuando quieras
+        // ==========================================
+        const URL_DESTINO = "https://ermi00.github.io/Groovy/";
+        // ==========================================
+
+        window.location.replace(URL_DESTINO);
+    </script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Te estamos redirigiendo a Groovy</h1>
+    <p style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+        Si no sucede nada <a id="link" href="#">haz clic aquí</a>.
+    </p>
+    <script>
+        document.getElementById('link').href = URL_DESTINO;
+    </script>
+</body>
+
+</html>
